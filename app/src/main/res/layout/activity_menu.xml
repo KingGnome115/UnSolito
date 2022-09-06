@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuCalculadora"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/calculadora"
+                    app:icon="@drawable/ic_baseline_calculate_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuImagen"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/imagenes"
+                    app:icon="@drawable/ic_baseline_image_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuWeb"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/web"
+                    app:icon="@drawable/ic_baseline_web_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuVideo"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/video"
+                    app:icon="@drawable/ic_baseline_video_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuGPS"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gps"
+                    app:icon="@drawable/ic_baseline_gps_fixed_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuLoco"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/loco"
+                    app:icon="@drawable/ic_baseline_crazy_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuAcercaDe"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/acercaDe"
+                    app:icon="@drawable/ic_baseline_acercade_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuSalir"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/salir"
+                    app:icon="@drawable/ic_baseline_exit_24"
+                    app:iconGravity="top"
+                    app:iconSize="50dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

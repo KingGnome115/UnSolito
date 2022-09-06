@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">UnSolito</string>
+    <string name="saludos">Bienvenido</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="salir">Salir</string>
+
+
+    <string name="calculadora">Calculadora</string>
+    <string name="imagenes">Imagenes</string>
+    <string name="web">Pagina Web</string>
+    <string name="video">Video</string>
+    <string name="gps">GPS</string>
+    <string name="loco">Loco</string>
+    <string name="acercaDe">Acerca De</string>
+
+
+    <string name="calEjemplo">10x + 2y</string>
+    <string name="shift">SHIFT</string>
+    <string name="alpha">ALPHA</string>
+    <string name="Mode">MODE</string>
+    <string name="on">ON</string>
+
+    <string name="abs">Abs</string>
+    <string name="x3">X^3</string>
+    <string name="x_1">X^-1</string>
+    <string name="log">Log</string>
+
+    <string name="fraccion">/</string>
+    <string name="raiz">√</string>
+    <string name="x2">X^2</string>
+    <string name="xn">X^n</string>
+    <string name="log1">Log</string>
+    <string name="in">In</string>
+
+    <string name="guion">-</string>
+    <string name="comas">.,</string>
+    <string name="hyp">hyp</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+
+    <string name="rcl">RCL</string>
+    <string name="eng">ENG</string>
+    <string name="paretesisAbre">(</string>
+    <string name="parentesisCierra">)</string>
+    <string name="sd">S->D</string>
+    <string name="eme">M+</string>
+
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="del">DEL</string>
+    <string name="ac">AC</string>
+
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="equis">X</string>
+    <string name="divicion">/</string>
+
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>
+
+    <string name="cero">0</string>
+    <string name="punto">.</string>
+    <string name="porDiez">x10</string>
+    <string name="ans">Ans</string>
+    <string name="igual">=</string>
+</resources>
