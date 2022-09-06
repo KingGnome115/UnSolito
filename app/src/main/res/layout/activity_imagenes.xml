@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Imagenes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bladerunner"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ciudad"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/espada"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/guardian"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/horizonte"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/hoyonegro"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/skullnight"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/universo"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/universodos"
+                android:layout_gravity="top|left"/>
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/zelda"
+                android:layout_gravity="top|left"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

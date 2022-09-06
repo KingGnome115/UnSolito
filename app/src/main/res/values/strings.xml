@@ -71,4 +71,7 @@
     <string name="porDiez">x10</string>
     <string name="ans">Ans</string>
     <string name="igual">=</string>
+
+    <string name="Seleccionar">Seleccionar</string>
+
 </resources>

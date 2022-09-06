@@ -40,5 +40,13 @@ public class Menu extends AppCompatActivity {
             }
         });
 
+        btnImagenes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Menu.this, Imagenes.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
