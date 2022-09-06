@@ -80,11 +80,7 @@
                 android:visibility="visible"
                 app:srcCompat="@drawable/zelda"
                 android:layout_gravity="top|left"/>
-
-
         </LinearLayout>
-
-
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
