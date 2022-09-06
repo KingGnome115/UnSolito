@@ -56,5 +56,13 @@ public class Menu extends AppCompatActivity {
             }
         });
 
+        btnVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Menu.this,Video.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
