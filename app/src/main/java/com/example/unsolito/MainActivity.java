@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         btnAceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String usu = usuarioM.getText().toString();
+                String usu = usuarioM.getText().toString().trim();
                 String pas = passwordM.getText().toString();
                 if(usu.compareTo(USUARIO)==0)
                 {
