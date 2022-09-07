@@ -12,33 +12,39 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-200dp"
-        tools:layout_editor_absoluteY="40dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="-200dp">
 
-        <Button
-            android:id="@+id/buttonPlay"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"
-            android:layout_toStartOf="@+id/buttonPause"
-            android:layout_toLeftOf="@+id/buttonPause"
-            android:text="PLAY" />
-
-        <Button
-            android:id="@+id/buttonPause"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/buttonPlay"
-            android:layout_alignBottom="@+id/buttonPlay"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
-            android:text="PAUSE" />
 
         <VideoView
             android:id="@+id/VideoView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="539dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="2"
+                android:text="@string/play" />
+
+            <Button
+                android:id="@+id/buttonPause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="2"
+                android:text="@string/pause" />
+        </LinearLayout>
 
     </LinearLayout>
 

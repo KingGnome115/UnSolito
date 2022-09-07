@@ -78,5 +78,7 @@
     <string name="presiona">Ya no te quiero ver</string>
     <string name="obtenerhora">¿Que hora es?</string>
     <string name="rank">Dame 5 estrellas o me muero de hambre</string>
+    <string name="play">Play</string>
+    <string name="pause">Pausa</string>
 
 </resources>
