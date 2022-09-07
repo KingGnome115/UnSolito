@@ -74,5 +74,9 @@
 
     <string name="Seleccionar">Seleccionar</string>
     <string name="link">¿A donde quieres ir?</string>
+    <string name="descripcionImagen">Un pequeño Rey Gnomo</string>
+    <string name="presiona">Ya no te quiero ver</string>
+    <string name="obtenerhora">¿Que hora es?</string>
+    <string name="rank">Dame 5 estrellas o me muero de hambre</string>
 
 </resources>

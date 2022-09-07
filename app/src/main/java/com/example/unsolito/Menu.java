@@ -2,9 +2,11 @@ package com.example.unsolito;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
@@ -72,5 +74,40 @@ public class Menu extends AppCompatActivity {
             }
         });
 
+        btnLoco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Menu.this,Loco.class);
+                startActivity(intent);
+            }
+        });
+
+        btnAcercaDe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getCreditos();
+            }
+        });
+
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Menu.this, "Bye bye", Toast.LENGTH_SHORT).show();
+                finishAffinity();
+            }
+        });
+
+    }
+
+    private void getCreditos() {
+        new AlertDialog.Builder(this)
+                .setTitle("Acerca de")
+                .setMessage(""+
+                        "Kevin Jesús Escutia Ceja\n"
+                        + "Profesora: Rocio Elizabeth Alba\n"
+                        + "Movil 2022B\n"
+                        + "vrs 1")
+                .setPositiveButton("Aceptar",null)
+                .show();
     }
 }
